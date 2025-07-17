@@ -1,5 +1,5 @@
 #Asking the user for the answer to the following question
-answer = input("What is the answer to the Great Question of Life, the Universe and Everything?: ").lower()
+answer = input("What is the answer to the Great Question of Life, the Universe and Everything?: ").lower().strip()
 
 #Setting up an if statement to determine the output.
 if answer == "42" :
