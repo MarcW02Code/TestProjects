@@ -13,9 +13,11 @@ correct = (100.00)
 if greeting.startswith("hello"): 
     print ("You will now receive: $", format(incorrect, ",.2f"))
 
+#Implementing a rule that if greeted with anything starting with "h" and is not "hello", the output will be $20
 elif greeting.startswith("h"): 
     print ("You will now receive: $", format(partially_correct, ",.2f"))
     
+#Implementing a rule that if greeted with anything not starting with "h",  the output will be $100
 else:
     print("You will now receive: $", format(correct, ",.2f"))
-    
+
