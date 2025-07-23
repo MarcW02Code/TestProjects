@@ -12,8 +12,8 @@ extension = filename.split(".")[-1]
 #the period . With "-1" grabbing the last part of the file, the extension.
 
 if filename.endswith(('.gif', '.png', '.jpeg', '.jpg')):
-    if filename == "jpg":
-        filename = "jpeg"
+    if extension == "jpg":
+        extension = "jpeg"
     print(f'image/{extension}')
 
 #The same step is repeated below, except I am adding "application" instead of "image" as the following extensions are not images, rather applications.
