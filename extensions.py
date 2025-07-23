@@ -1,6 +1,6 @@
 #Prompting the user for a file name
 
-filename = input("Please enter your file name: ").lower()
+filename = input("Please enter your file name: ").lower().split()
 
 #Setting up a rule in which the user's input will be tested against.
 
