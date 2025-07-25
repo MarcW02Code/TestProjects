@@ -1,3 +1,8 @@
 #Prompting the user for an expression
 
 expression = input("Please enter your expression: ")
+
+#splitting the string into a sequence of values
+
+x, y, z = expression.split(" ")
+
