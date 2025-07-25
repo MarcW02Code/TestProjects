@@ -1,0 +1,3 @@
+#Prompting the user for an expression
+
+expression = input("Please enter your expression: ")
