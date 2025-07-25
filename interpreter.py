@@ -8,8 +8,8 @@ x, y, z = expression.split(" ")
 
 #converting the values of x and z into float numbers
 
-x = (float)x
-z = (float)z
+x = float(x)
+z = float(z)
 
 #calculating results depending on the input of the user.
 
@@ -18,12 +18,11 @@ if y == "+":
 elif y == "-":
     result = x - z
 elif y == "/":
-    result x / z
+    result = x / z
 elif y == "*":
-    result x * z
+    result = x * z
 
 #rounding the result to 1 decimal place
 
-format = "{:,1f}".format(int(result))
+print(f"{result: .1f}")
 
-print = (format)
