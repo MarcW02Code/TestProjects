@@ -9,7 +9,7 @@ As I want to loop through the input and check to see if all characters are lower
 # Problem set 2, question 2:
 So for the coke program i want to be able to do a few things off the top of my head:
 Firstly, the machine sells bottles of coke for 50cents each, so only when the total number of inputs equate to 50 will the correct result be outputted.
-    > To do this I want to create an argument that somehow checks "if the amount input is == 50" changed owed must output 0.
+    > To do this I want to create an argument that somehow checks "if the amount input is == 50" change owed must output 0.
         > I must specify if the user must still input more coins. They can only put one in at a time.
     > (Some ideas)
         # if (" ") == 50:
