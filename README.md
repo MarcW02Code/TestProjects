@@ -14,11 +14,10 @@ Firstly, the machine sells bottles of coke for 50cents each, so only when the to
     > (Some ideas)
         # if (" ") == 50:
         print(correct_amount)
-
-        
-
 Secondly, the machine only accepts coins in denominations of 25 cents, 10 cents, and 5 cents, anything not multiplicable by these numbers is incorrect.
 *I can assume the user will only be inputting integers, any denomination that is not accepted will be ignored.
+
+I wrote some rough code and tried to mindmap it out, but was unsure of whether to use an if or while loop, and how to go about checking the number in the best way possible. I watched "Dors Coding School" explain this exact problem and how they did it, hence the similarities in what I have done compared to them. I looked up some other peoples methods of how they got the answer, but they were very different to the method that I wanted to implement. 
 
 
 
