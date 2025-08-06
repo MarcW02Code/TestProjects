@@ -1,5 +1,13 @@
 #Prompt the user for input
 
-user_input = input("Please input your sentence here: ")
+a = input("Please input your sentence here: ")
 
-vowels = ['a','e','i','o','u']
+vowels = ['a','e','i','o','u', 'A', 'E', 'I', 'O', 'U']
+
+result = ""
+
+for char in a:
+    if char not in vowels:
+        result += char
+
+print(result)
