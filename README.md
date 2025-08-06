@@ -19,6 +19,14 @@ Secondly, the machine only accepts coins in denominations of 25 cents, 10 cents,
 
 I wrote some rough code and tried to mindmap it out, but was unsure of whether to use an if or while loop, and how to go about checking the number in the best way possible. I watched "Dors Coding School" explain this exact problem and how they did it, hence the similarities in what I have done compared to them. I looked up some other peoples methods of how they got the answer, but they were very different to the method that I wanted to implement. 
 
+# Problem set 2, question 3:
+
+For the twttr problem, I want to set up a program that promopts the user for a string of text, and then returns the same text but with vowels omitted.
+Off the top of my head this is my thinking:
+    > I want to create a list with the vowel letters in it.
+    > I want to take the user's input and check it for any of those vowels in the list
+    > Then return the new input with vowels omitted.
+
 
 
 
