@@ -27,6 +27,10 @@ Off the top of my head this is my thinking:
     > I want to take the user's input and check it for any of those vowels in the list
     > Then return the new input with vowels omitted.
 
+# Problem set 2, question 4:
+
+
+
 
 
 
