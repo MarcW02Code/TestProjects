@@ -14,6 +14,7 @@ def is_valid(s):
         return False
     if not s[0:2].isalpha():
         return False
+    first_number_index = -1    
     for i in range(len(s)):
         if s[i].isdigit():
             first_number_index = i
