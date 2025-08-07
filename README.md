@@ -27,7 +27,12 @@ Off the top of my head this is my thinking:
     > I want to take the user's input and check it for any of those vowels in the list
     > Then return the new input with vowels omitted.
 
-# Problem set 2, question 4:
+# Problem set 2, question 5:
+
+I want to create a program that, when a fruit's name is input, it outputs the calories of that fruit according to the raw fruit poster created by the fda.
+
+    > I want to create a dictionary whereby each fruit is associated with a caloric number.
+        > To start off I will create a dicionary with the fruit names and relevant calories.
 
 
 
