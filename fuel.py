@@ -1,15 +1,18 @@
 #Take in an input
 
 while True:
-    fuel = input("Fraction: ")
 
 #Make sure the input is formatted as x/y, wherein x and y are both positive integers, and
 #outputs as a percentage how much fuel is in the tank, rounded to the nearest integer.
 
     try:
+        fuel = input("Fraction: ")   
         x, y = fuel.split("/")
         x = int(x)
         y = int(y)
+        
+        if x < 0 or y < 0 or x > y:
+            continue 
 
         x = x * 100
         p = x / y
@@ -32,6 +35,8 @@ while True:
 
     except(ValueError, ZeroDivisionError):
         pass
+    
+     
     
 
 
