@@ -3,9 +3,8 @@
 # which will end their input to the program.
 
 def main():
-    menu = 
-{    
-    Baja Taco": 4.25,
+    menu = {    
+    "Baja Taco": 4.25,
     "Burrito": 7.50,
     "Bowl": 8.50,
     "Nachos": 11.00,
@@ -14,14 +13,20 @@ def main():
     "Super Quesadilla": 9.50,
     "Taco": 3.00,
     "Tortilla Salad": 8.00
-}
-
-while true:
-    try:
-        item = input("Item:\n")
-        print(item{cost})
-    except KeyError:
-        print("Sorry, that item is not on the menu, please try again.")
-    except EOFError:
-        print("\nItem: ")
+    }
+    total = 0: 
+    while True:
+        try:
+            item = input("Item: ").title()
+            print(item{cost})
+        except EOFError:
+            print("\n")
         break
+        except KeyError as k:
+            print("Sorry, that item is not on the menu, please try again.")
+
+        else:
+            if menu.get(item) !=None:
+                total += menu.get(item)
+
+    
