@@ -42,9 +42,10 @@ Fuel.py
 # Problem set 3, question 2:
 
 taqueria.py
+Step by step mind mapping.
 
-
-
-
+        > I need to take a user's order, which has to be done one item per line.
+        > Then when the user has finished their order they must input control-d which will end their input to the program.
+        > 
 
 
