@@ -35,6 +35,10 @@ I want to create a program that, when a fruit's name is input, it outputs the ca
         > To start off I will create a dicionary with the fruit names and relevant calories.
 
 
+# Problem set 3, question 1:
+
+Fuel.py
+
 
 
 
