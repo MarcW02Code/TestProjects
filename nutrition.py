@@ -4,7 +4,7 @@ userinput = input("Please state the fruit in question: ")
 
 #Creating a dictionary
 def main():
-    fruits = {
+    fruit_calories = {
         "Apple": 130, 
         "Avocado": 50, 
         "Banana": 110, 
@@ -26,10 +26,8 @@ def main():
         "Tangerine": 50, 
         "Watermelon": 80
      }
-    print(fruit_calories(fruits))
+    
 
-def fruit_calories(fruits):
-    return 
 
 
 
