@@ -29,7 +29,7 @@ fruits = {
 #Used setdefault to check if the fruit is in the list and if not
 #return the text "Not a fruit"
 fruit = input("Fruit: ").strip().title()
-print(fruits.setdefault(fruit, "Not a fruit"))
+print(fruits.setdefault(fruit, ""))
     
 
 
